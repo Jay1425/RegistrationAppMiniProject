@@ -1,0 +1,56 @@
+/* Modern Style - Clean and Subtle */
+.root, .form-container {
+    -fx-background-color: #ffffff;  /* Light background */
+    -fx-padding: 20px;
+    -fx-font-family: 'Arial', sans-serif;  /* A modern, simple font */
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.label {
+    -fx-text-fill: #333333;  /* Dark gray for text */
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.text-field, .combo-box, .radio-button, .check-box {
+    -fx-background-color: #f1f1f1;  /* Light gray background for inputs */
+    -fx-text-fill: #333333;  /* Dark text for readability */
+    -fx-border-color: #cccccc;  /* Soft border */
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.text-field:focused, .combo-box:focused {
+    -fx-border-color: #4CAF50;  /* Green for focus effect */
+    -fx-background-color: #e8f5e9;  /* Light green background when focused */
+}
+
+.button {
+    -fx-background-color: #4CAF50;  /* Green background */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;  /* Darker green for hover effect */
+}
+
+.welcome-box {
+    -fx-background-color: #ffffff;  /* White background */
+    -fx-alignment: center;
+    -fx-padding: 40px;
+    -fx-border-color: #4CAF50;  /* Green border */
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;
+}
+
+.welcome-text {
+    -fx-text-fill: #333333;  /* Dark gray text */
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+}
