@@ -1,0 +1,61 @@
+/* Cyberpunk color palette */
+.root, .form-container {
+    -fx-background-color: #0f0f0f;
+    -fx-padding: 20px;
+    -fx-font-family: 'Consolas', monospace;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.label {
+    -fx-text-fill: #00ffea;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, #00fff7, 1, 1, 0, 0);
+}
+
+.text-field, .combo-box, .radio-button, .check-box {
+    -fx-background-color: #1c1c1c;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #00fff7;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(gaussian, #00fff7, 1, 1, 0, 0);
+}
+
+.text-field:focused, .combo-box:focused {
+    -fx-border-color: #ff00c8;
+    -fx-effect: dropshadow(gaussian, #ff00c8, 2, 2, 0, 0);
+}
+
+.button {
+    -fx-background-color: linear-gradient(to bottom, #ff00c8, #8e00ff);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-padding: 10 20;
+    -fx-effect: dropshadow(gaussian, #ff00c8, 5, 0.5, 0, 0);
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #8e00ff, #ff00c8);
+    -fx-effect: dropshadow(gaussian, #8e00ff, 8, 0.7, 0, 0);
+}
+
+.welcome-box {
+    -fx-background-color: #101010;
+    -fx-alignment: center;
+    -fx-padding: 40;
+    -fx-border-color: #00ffea;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;
+}
+
+.welcome-text {
+    -fx-text-fill: #00ffea;
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, #00fff7, 5, 0.7, 0, 0);
+}
